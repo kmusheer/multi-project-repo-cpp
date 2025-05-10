@@ -28,14 +28,17 @@ This version is a basic terminal-based bookshop manager. The book records are st
 > 📁 Folder: `mainWithFileManagment/`   ||  `v2_purchase_inventory`
 
 ### ✅ Features:
-- All Version 1 features
-- Buy a book
-- Quantity management (decrement on purchase)
-- Inventory check (insufficient stock warning)
-- User prompts to confirm purchase
+
+* All Version 1 features
+* Buy a book
+* Quantity management (decrement on purchase)
+* Inventory check (insufficient stock warning)
+* User prompts to confirm purchase
+* **Explicit save required** to persist changes
 
 ### 💡 Description:
-This version introduces an inventory system. Users can buy books, and the system keeps track of quantity. After each transaction, the file is updated with the new quantity.
+
+This version introduces an inventory system. Users can buy books, and the system keeps track of quantities. However, changes made (such as purchases, deletions, or updates) are only reflected in the file **after the user explicitly chooses the "Save to File" option**. This allows users to make multiple operations before committing them to permanent storage.
 
 ---
 
@@ -68,10 +71,6 @@ The final version adds user authentication. Admins can manage books, while users
 - Book categorization (genre, author filter)
 - UI enhancement using a GUI framework (e.g., Qt)
 
----
-Sure! Here's the workflow snippet you can add under **v3\_authentication\_roles** in your `README.md`:
-
-```markdown
 ### 🧭 User Login Workflow Example
 
 ```
@@ -93,6 +92,7 @@ User Menu:
 3. Buy Book
 4. Exit
    Enter your choice:
+```
 
 ---
 
@@ -131,6 +131,8 @@ g++ main.cpp -o bookshop
 ---
 
 ## 📜 License
+
+MIT License – feel free to use, modify, and contribute.
 
 MIT License – feel free to use, modify, and contribute.
 
