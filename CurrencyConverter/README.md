@@ -13,8 +13,8 @@ A command-line based Currency Converter written in C++ that allows users to:
 ## 📁 File Structure
 
 
-currencyConverter/main.cpp      // Main source code
-currency.txt                    // Input file with currency codes and rates
+- currencyConverter/main.cpp      // Main source code
+- currency.txt                    // Input file with currency codes and rates
 
 ---
 
@@ -39,9 +39,12 @@ Each line contains a currency code and its exchange rate relative to a base curr
 ## 🛠 Features
 
 - Modular class-based structure
-- Input validation
 - Easy-to-extend currency file format
-- Menu-driven user interface
+ 
+- **STL `map`**: Utilized for storing currency codes as keys and their corresponding exchange rates as values.
+- Menu-driven user interface for easy access to conversion and rate management options.
+- Option to load exchange rates from a text file and update rates interactively.
+- Input validation for currency codes to ensure only valid ones are processed.
 
 ---
 
@@ -65,9 +68,10 @@ g++ -o main.cpp
 
 ## 📌 Example Use
 
-- Convert 100 USD to INR
-- Add a new currency like AED
-- View all exchange rates
+- **Set Exchange Rate**: Add or update a currency exchange rate (e.g., EUR to USD).
+- **Get Exchange Rate**: Retrieve the exchange rate for a given currency.
+- **Convert Currency**: Convert an amount between two currencies.
+- **Display All Rates**: View all stored exchange rates.
 
 ---
 
