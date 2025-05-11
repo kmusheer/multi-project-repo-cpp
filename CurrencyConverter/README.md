@@ -12,7 +12,6 @@ A command-line based Currency Converter written in C++ that allows users to:
 
 ## 📁 File Structure
 
-```
 
 currencyConverter/main.cpp      // Main source code
 currency.txt                    // Input file with currency codes and rates
