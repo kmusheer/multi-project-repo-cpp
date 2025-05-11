@@ -1,6 +1,3 @@
-Understood! Here's the updated version of the `README.md` without any learning-related language:
-
-```markdown
 # Currency Converter in C++
 
 A command-line based Currency Converter written in C++ that allows users to:
