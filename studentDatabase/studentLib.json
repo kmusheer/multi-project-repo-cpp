@@ -1,0 +1,107 @@
+[
+    {
+        "contact": "0987654321",
+        "degree": 77.23238372802734,
+        "dob": {
+            "day": 22,
+            "month": 2,
+            "year": 1900
+        },
+        "email": "alice@gmail.com",
+        "id": "V24HE2A01",
+        "name": "alice border land",
+        "preDegree": 98.0,
+        "preDegreeType": "a",
+        "ssc": 78.44000244140625
+    },
+    {
+        "contact": "9123456780",
+        "degree": 82.0,
+        "dob": {
+            "day": 9,
+            "month": 11,
+            "year": 1997
+        },
+        "email": "emma.jones@example.com",
+        "id": "V24HE2E01",
+        "name": "Emma Jones",
+        "preDegree": 75.0,
+        "preDegreeType": "b",
+        "ssc": 90.5
+    },
+    {
+        "contact": "9876543210",
+        "degree": 78.5,
+        "dob": {
+            "day": 15,
+            "month": 6,
+            "year": 1998
+        },
+        "email": "jacke.alice@example.com",
+        "id": "V24HE2J01",
+        "name": "Jacke Alice",
+        "preDegree": 72.30000305175781,
+        "preDegreeType": "a",
+        "ssc": 88.0
+    },
+    {
+        "contact": "1234567890",
+        "degree": 55.880001068115234,
+        "dob": {
+            "day": 22,
+            "month": 9,
+            "year": 1222
+        },
+        "email": "jk@mail.com",
+        "id": "V24HE2J03",
+        "name": "jk fhg",
+        "preDegree": 77.98999786376953,
+        "preDegreeType": "b",
+        "ssc": 78.80000305175781
+    },
+    {
+        "contact": "1234567890",
+        "degree": 89.0,
+        "dob": {
+            "day": 22,
+            "month": 12,
+            "year": 2024
+        },
+        "email": "joy@gmail.com",
+        "id": "V24HE2J04",
+        "name": "joy",
+        "preDegree": 98.0,
+        "preDegreeType": "a",
+        "ssc": 26.0
+    },
+    {
+        "contact": "5556667778",
+        "degree": 80.0,
+        "dob": {
+            "day": 1,
+            "month": 1,
+            "year": 2020
+        },
+        "email": "MACK@gmail.com",
+        "id": "V24HE2M01",
+        "name": "mack",
+        "preDegree": 80.0,
+        "preDegreeType": "b",
+        "ssc": 80.0
+    },
+    {
+        "contact": "9988776655",
+        "degree": 85.4000015258789,
+        "dob": {
+            "day": 22,
+            "month": 3,
+            "year": 1999
+        },
+        "email": "rohan.mehta@example.com",
+        "id": "V24HE2R01",
+        "name": "Rohan Mehta",
+        "preDegree": 79.80000305175781,
+        "preDegreeType": "a",
+        "ssc": 92.0
+    }
+]
